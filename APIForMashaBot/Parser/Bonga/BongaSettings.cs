@@ -4,9 +4,9 @@ namespace TelegramBotApp
     class BongaSettings : IParserSettings
     {
 
-        public string BaseUrl { get; set; } = "https://ua.bongacams.com";
+        public string BaseUrl { get; set; } = "";
 
-        public string Prefix { get; set; } = "?modelname=MeriLovely";
+        public string Prefix { get; set; } = "";
 
     }
 }
